@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>My static site</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A static site for my TEI">
+    <meta name="author" content="Me">
+
+  <script src="js/CETEI.js"></script>
+
+   <link rel="stylesheet" href="css/CETEIcean.css"/>
+   <link rel="stylesheet" href="css/style.css"/>
+  </head>
+
+  <body>
+
+    <div>Hello <i>world</i>!</div>
+
+<div id="TEI"></div>
+<script>
+var CETEIcean = new CETEI()
+CETEIcean.getHTML5("data/TEI.xml", function(data) {
+    document.getElementById("TEI").appendChild(data)
+
+    var substitutions = document.querySelectorAll("tei-choice")
+    substitutions.forEach( function(subst){
+      subst.querySelector("tei-sic").addEventListener("click", function(){
+        var del = subst.querySelector("tei-corr")
+        if (window.getComputedStyle(del).getPropertyValue("display") == "none") {
+         del.style.display = "inline"
+        }
+       else {
+         del.style.display = "none"
+       }
+
+    })
+})
+
+</script>
+  </body>
+
+</html>

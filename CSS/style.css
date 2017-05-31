@@ -1,0 +1,9 @@
+tei-supplied:before{content:"["}
+tei-supplied:after{content:"]"}
+tei-sic:after{content: " (sic!)"}
+tei-c[rend="drop"] {
+   font-size: 300%;
+   float: left;
+   line-height: 1em;
+   padding-right: 10px;
+}

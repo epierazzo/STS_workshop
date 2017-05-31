@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+           <head>To Laughter—</head>
+  <l><c rend="drop">T</c>hy friends were never mine thou heartless<lb/>
+       fiend:</l>
+  <l>Silence and solitude &amp; calm &amp; storm,</l>
+  <l>Hope, before whose veiled shrine all<lb/>
+  spirits bend</l>
+  <l>In worship, &amp; the rainbow vested form</l>
+  <l>Of <choice><sic>concience</sic>
+  <corr>con<supplied>s</supplied>cience</corr></choice>,
+  that within thy hollow heart</l>
+<l>  Can find no throne—the love of such great<lb/>
+      powers</l>
+<l>  Which has requited mine in many hours</l>
+<l>  Of loneliness, thou ne’er hast felt; depart!</l>
+<l>  Thou canst not bear the moons great eye, thou<lb/>
+       fearest</l>
+<l>  A fair child clothed in smiles—aught that is high</l>
+<l>  Or good or beautiful.—Thy voice is dearest</l>
+<l>  To those who mock at truth &amp; Innocency</l>
+<l>  I, now alone, weep without shame to see</l>
+<l>  How many broken hearts lie bare to thee.</l></div>
+      </body>
+  </text>
+</TEI>
